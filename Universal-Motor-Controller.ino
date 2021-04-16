@@ -21,8 +21,7 @@ volatile uint16_t tick_after_zcd = 0;
 volatile uint16_t tick_after_tacho = 0;
 volatile uint8_t triac_state = 0;
 
-// questa cosa del delay count mi serve per evitare di usare le funzioni di
-// tempo di arduino
+// questa cosa del delay count mi serve per evitare di usare le funzioni di tempo di arduino
 volatile uint8_t delay_count = 0;
 volatile uint8_t delay_allow = 0;
 
